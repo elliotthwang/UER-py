@@ -72,7 +72,7 @@ def count_labels_num(path):
                     columns[column_name] = i
                 continue
             line = line.rstrip("\r\n").split("\t")
-            label = int(line[columns["label"]])
+            label = int(line[columns["2"]])
             labels_set.add(label)
     return len(labels_set)
 
