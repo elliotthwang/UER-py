@@ -8,7 +8,7 @@ def load_hyperparam(default_args):
     Load arguments form argparse and config file
     Priority: default options < config file < command line args
     """
-    with open(default_args.config_path, mode="r", encoding="utf-8") as f:
+    with open(/content/UER-py/models, mode="r", encoding="utf-8") as f:
         config_args_dict = json.load(f)
 
     default_args_dict = vars(default_args)
